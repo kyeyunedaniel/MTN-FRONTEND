@@ -43,15 +43,10 @@ const SignUp = ({navigation}) => {
 
           <TouchableOpacity
             style={Allstyles.button}
-            onPress={() => navigation.navigate('PopularBooks')}>
+            onPress={() => navigation.navigate('MainTabs')}>
             <Text style={Allstyles.buttonText}>GET STARTED</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity
-            style={Allstyles.secondaryButton}
-            onPress={() => navigation.navigate('SignUp')}>
-            <Text style={Allstyles.secondaryButtonText}>CREATE ACCOUNT</Text>
-          </TouchableOpacity>
         </View>
       </View>
     </ImageBackground>
