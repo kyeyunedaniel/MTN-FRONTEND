@@ -37,8 +37,9 @@ const Allstyles = StyleSheet.create({
     lineHeight: 43,
     fontFamily: 'IrishGrover',
     marginBottom: 10,
-    marginLeft: 10,
+    marginLeft: 90,
     letterSpacing: 0.5,
+    justifyContent:'center'
   },
 
   bookList: {
@@ -47,6 +48,7 @@ const Allstyles = StyleSheet.create({
 
   bookListContent: {
     paddingBottom: 90,
+    // marginBottom:50
   },
 
   bookItemContainer: {
@@ -63,6 +65,7 @@ const Allstyles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
+    marginBottom:10
   },
 
   bookTextContainer: {
