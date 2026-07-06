@@ -28,7 +28,7 @@ const Allstyles = StyleSheet.create({
     fontSize: 28,
     color: '#000',
     fontFamily: 'IrishGrover',
-    fontWeight: '900',
+
   },
 
   title: {
@@ -37,9 +37,8 @@ const Allstyles = StyleSheet.create({
     lineHeight: 43,
     fontFamily: 'IrishGrover',
     marginBottom: 10,
-    marginLeft: 90,
     letterSpacing: 0.5,
-    justifyContent:'center'
+    textAlign:'center'
   },
 
   bookList: {
@@ -77,7 +76,7 @@ const Allstyles = StyleSheet.create({
     fontSize: 22,
     color: '#000',
     fontFamily: 'IrishGrover',
-    fontWeight: '900',
+    // fontWeight: '900',
     marginBottom: 28,
   },
 
@@ -85,7 +84,7 @@ const Allstyles = StyleSheet.create({
     fontSize: 21,
     color: '#000',
     fontFamily: 'IrishGrover',
-    fontWeight: '900',
+    // fontWeight: '900',
   },
 
   bookCover: {
@@ -123,6 +122,7 @@ const Allstyles = StyleSheet.create({
     justifyContent: 'center',
     marginTop: 21,
     alignSelf: 'center',
+    fontFamily: 'IrishGrover',
   },
 
   input: {
@@ -187,7 +187,7 @@ detailsText: {
   fontFamily: 'IrishGrover',
   fontSize: 20,
   color: '#6d1717',
-  fontWeight: '900',
+  // fontWeight: '900',
   lineHeight: 26,
 },
 
@@ -206,7 +206,7 @@ largeActionText: {
   fontFamily: 'IrishGrover',
   fontSize: 36,
   color: '#6d1717',
-  fontWeight: '900',
+  // fontWeight: '900',
 },
 
 smallActionSubText: {
@@ -248,7 +248,7 @@ bookContentParagraph: {
   fontFamily: 'IrishGrover',
   fontSize: 21,
   color: '#6d1717',
-  fontWeight: '900',
+  // fontWeight: '900',
   lineHeight: 28,
 },
 
@@ -262,7 +262,7 @@ ratingText: {
   fontFamily: 'IrishGrover',
   fontSize: 22,
   color: '#000',
-  fontWeight: '900',
+  // fontWeight: '900',
   lineHeight: 32,
 },
 
@@ -272,7 +272,7 @@ sectionTitle: {
   fontFamily: 'IrishGrover',
   marginTop: 25,
   marginBottom: 22,
-  fontWeight: '900',
+  // fontWeight: '900',
 },
 
 gridListContent: {
@@ -303,7 +303,7 @@ gridBookTitle: {
   fontFamily: 'IrishGrover',
   fontSize: 22,
   color: '#000',
-  fontWeight: '900',
+  // fontWeight: '900',
 },
 
 progressLine: {
@@ -341,7 +341,7 @@ profileName: {
   fontFamily: 'IrishGrover',
   fontSize: 22,
   color: '#000',
-  fontWeight: '900',
+  // fontWeight: '900',
 },
 
 profileAvatar: {
@@ -374,7 +374,7 @@ profileMenuText: {
   fontFamily: 'IrishGrover',
   fontSize: 22,
   color: '#000',
-  fontWeight: '900',
+  // fontWeight: '900',
 },
 });
 
